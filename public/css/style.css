@@ -1,10 +1,8 @@
 * {
     margin: 0;
-}
-
-body {
     font-family: 'Montserrat', sans-serif;
 }
+
 
 header {
     display: flex;
@@ -116,4 +114,52 @@ header ul li a:hover {
     margin: 20px;
     line-height: 1.6;
     font-size: 17px;
+}
+
+#contact{
+    text-align: center;
+    margin: 70px;
+}
+
+#contact h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+#contact>div{
+    margin: 20px 30%;
+}
+
+#contact>div>form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20%;
+}
+
+#contact div form input, #contact div form textarea{
+    border: 0;
+    border-bottom: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 20px 10px;
+    font-size: 20px;
+    resize: none;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+#contact div form button{
+    border: 0;
+    background-color: crimson;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
 }
