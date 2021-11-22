@@ -1,12 +1,12 @@
-*{
+* {
     margin: 0;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-header{
+header {
     display: flex;
     background-color: #2C3E50;
     padding: 30px;
@@ -16,12 +16,12 @@ header{
     align-items: center;
 }
 
-header span{
+header span {
     font-size: 30px;
     font-weight: bold;
 }
 
-header ul{
+header ul {
     list-style: none;
     display: flex;
 }
@@ -33,30 +33,60 @@ header ul li a {
     font-weight: bold;
 }
 
-header ul li a:hover{
+header ul li a:hover {
     color: red;
 }
 
-#banner{
+#banner {
     background-color: crimson;
     color: white;
     text-align: center;
     padding: 100px;
 }
 
-#banner .container .logo img{
+#banner .logo img {
     width: 200px;
 }
 
-#banner .container h1{
+#banner h1 {
     font-size: 40px;
     text-transform: uppercase;
     font-weight: bolder;
     margin: 20px 0;
 }
 
-#banner .container p{
+#banner p {
     text-transform: capitalize;
     font-size: 25px;
 
+}
+
+#portfolio {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px;
+}
+
+#portfolio h2{
+    font-size: 40px; 
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#portfolio>div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 20%;
+}
+
+#portfolio div .col{
+    flex: 31%;
+    margin: 10px;
+}
+
+#portfolio div .col img{
+    border-radius: 5px;
+    width: 100%;
 }
