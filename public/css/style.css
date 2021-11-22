@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: #2C3E50;
+    padding: 30px;
+    color: white;
+    justify-content: space-around;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+header span{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+header ul li a:hover{
+    color: red;
+}
