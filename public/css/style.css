@@ -65,13 +65,13 @@ header ul li a:hover {
     padding: 50px;
 }
 
-#portfolio h2{
-    font-size: 40px; 
+#portfolio h2 {
+    font-size: 40px;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
-#portfolio>div{
+#portfolio>div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -79,36 +79,36 @@ header ul li a:hover {
     margin: 0 20%;
 }
 
-#portfolio div .col{
+#portfolio div .col {
     flex: 31%;
     margin: 10px;
 }
 
-#portfolio div .col img{
+#portfolio div .col img {
     border-radius: 5px;
     width: 100%;
 }
 
-#about{
+#about {
     text-align: center;
     color: white;
     background-color: crimson;
     padding: 70px;
 }
 
-#about h2{
+#about h2 {
     font-size: 40px;
     text-transform: uppercase;
     font-weight: bold;
     margin: 0 0 10px;
 }
 
-#about div{
+#about div {
     display: flex;
     margin: 0 30%;
 }
 
-#about div p{
+#about div p {
     flex: 1;
     text-align: start;
     margin: 20px;
@@ -116,29 +116,30 @@ header ul li a:hover {
     font-size: 17px;
 }
 
-#contact{
+#contact {
     text-align: center;
     margin: 70px;
 }
 
-#contact h2{
+#contact h2 {
     font-size: 40px;
     text-transform: uppercase;
     font-weight: bold;
     margin: 0 0 10px;
 }
 
-#contact>div{
+#contact>div {
     margin: 20px 30%;
 }
 
-#contact>div>form{
+#contact>div>form {
     display: flex;
     flex-direction: column;
     margin-bottom: 20%;
 }
 
-#contact div form input, #contact div form textarea{
+#contact div form input,
+#contact div form textarea {
     border: 0;
     border-bottom: 1px solid lightgray;
     border-radius: 5px;
@@ -148,11 +149,12 @@ header ul li a:hover {
     resize: none;
 }
 
-input:focus, textarea:focus{
+input:focus,
+textarea:focus {
     outline: none;
 }
 
-#contact div form button{
+#contact div form button {
     border: 0;
     background-color: crimson;
     color: white;
@@ -162,4 +164,61 @@ input:focus, textarea:focus{
     margin-top: 10px;
     font-size: 15px;
     cursor: pointer;
+}
+
+footer {
+    background-color: #2C3E50;
+    color: white;
+}
+
+footer>div{
+    display: flex;
+    margin: 0 20%;
+    padding: 80px 0;
+}
+
+footer>div>div{
+    flex: 1;
+    text-align: center;
+}
+
+footer h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    font-weight: bold;
+}
+
+footer p{
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+footer p a{
+    color: green;
+    text-decoration: none;
+}
+
+footer .icones{
+    display: flex;
+    justify-content: center;
+}
+
+footer .icones a{
+    color: white;
+    font-size: 30px;
+    margin: 0 10px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+footer span{
+    background-color: black;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-size: 10px;
 }
