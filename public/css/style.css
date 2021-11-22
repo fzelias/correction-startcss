@@ -90,3 +90,30 @@ header ul li a:hover {
     border-radius: 5px;
     width: 100%;
 }
+
+#about{
+    text-align: center;
+    color: white;
+    background-color: crimson;
+    padding: 70px;
+}
+
+#about h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+#about div{
+    display: flex;
+    margin: 0 30%;
+}
+
+#about div p{
+    flex: 1;
+    text-align: start;
+    margin: 20px;
+    line-height: 1.6;
+    font-size: 17px;
+}
